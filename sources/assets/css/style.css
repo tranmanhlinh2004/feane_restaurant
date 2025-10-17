@@ -1005,3 +1005,15 @@ a:focus {
   color: inherit;
 }
 /*# sourceMappingURL=style.css.map */
+.navbar-nav {
+  white-space: nowrap;        /* Giữ tất cả mục trên 1 dòng */
+}
+
+.navbar-nav .nav-item {
+  margin: 0 10px;             /* Cách đều giữa các mục */
+}
+
+.navbar-nav .nav-link {
+  display: inline-block;      /* Giúp căn đều nội dung */
+  white-space: nowrap;        /* Không cho xuống dòng chữ */
+}
